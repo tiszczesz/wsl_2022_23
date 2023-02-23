@@ -1,3 +1,6 @@
 .red{
     color: red;
 }
+.border{
+    border: solid 1px orange;
+}
