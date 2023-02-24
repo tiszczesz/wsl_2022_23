@@ -7,13 +7,17 @@ import { Component1Component } from './component1/component1.component';
 import { Nowy2023Component } from './nowy2023/nowy2023.component';
 import { Comp2Component } from './comp2/comp2.component';
 import { FormsModule } from '@angular/forms';
+import { ChildComponent } from './child/child.component';
+import { ParentComponent } from './parent/parent.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     Component1Component,
     Nowy2023Component,
-    Comp2Component,    
+    Comp2Component,
+    ChildComponent,
+    ParentComponent,    
   ],
   imports: [
     BrowserModule,

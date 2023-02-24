@@ -1,0 +1,3 @@
+<p>parent works!</p>
+<app-child *ngFor="let i of infoForChild" [info]="i" 
+    (eventItem)="run($event)"></app-child>
