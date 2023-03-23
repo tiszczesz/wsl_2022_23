@@ -1,0 +1,13 @@
+<input type="button" (click)="load($event)" value="Pobierz"/>
+<div class="row">
+    <div [ngClass]="{'finish':t.completed}" class="card  m-2" style="width: 20rem;" *ngFor="let t of myTodos">
+        <div class="body">
+            <div class="title fw-bold">{{ t.title}}</div>
+        <div class="card-text">
+            <div style="text-decoration: underline;">{{t.completed?"wykonane":"do zrobienia"}}</div>
+            Lorem ipsum dolor sit amet consectetur .
+        </div>
+        </div>
+        
+    </div>
+</div>
