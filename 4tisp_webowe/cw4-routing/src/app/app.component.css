@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    
+}
+nav{
+    border: solid 1px black;
+    background-color: lightblue;
+    padding: 1rem;    
+    margin-right: 10px;
+    width: 300px;
+}
+nav>a{
+    display: block;
+    text-decoration: none;
+    margin: 10px;
+    color: darkblue;
+    width: 80%;
+    padding: 10px;
+}
+nav>a:hover{
+    background-color: lightgray;
+    
+}
+.activeLink{
+    border: solid 1px green;
+}
