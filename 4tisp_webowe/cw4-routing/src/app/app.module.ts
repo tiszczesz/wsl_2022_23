@@ -8,13 +8,15 @@ import { FirstComponent } from './first/first.component';
 import { SecondComponent } from './second/second.component';
 import { RouterModule } from '@angular/router';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { NwdComponent } from './nwd/nwd.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FirstComponent,
     SecondComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    NwdComponent
   ],
   imports: [
     BrowserModule,
@@ -23,6 +25,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     RouterModule.forRoot([
       { path: 'first', component: FirstComponent },
       { path: 'second', component: SecondComponent },
+      { path: 'nwd', component: NwdComponent },
       { path: '', component: FirstComponent },
       { path: '**', component: PageNotFoundComponent }
     ])

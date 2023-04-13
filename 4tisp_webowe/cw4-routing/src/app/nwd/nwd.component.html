@@ -1,0 +1,21 @@
+<h3>Obliczanie NWD</h3>
+
+    <div class="row m-2">
+        <label for="a" class="col-4">Podaj a</label>
+        <input type="number" class="col-8" [(ngModel)]="a">
+    </div>
+    <div class="row m-2">
+        <label for="b" class="col-4">Podaj b</label>
+        <input type="number" class="col-8" [(ngModel)]="b">
+    </div>
+    <div class="row m-2">
+        
+        <input type="button" class="offset-4 col-8"
+         value="Oblicz NWD"
+         (click)="clickHandler()"
+         >
+    </div>
+
+<div>
+    {{result}}
+</div>
