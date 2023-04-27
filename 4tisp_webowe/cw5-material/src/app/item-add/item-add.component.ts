@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./item-add.component.css']
 })
 export class ItemAddComponent {
-
+categories: string[];
+constructor(){
+  this.categories = ["mięso","nabiał","pieczywo","napoje",
+  "wędliny","owoce i warzywa"];
+}
 }

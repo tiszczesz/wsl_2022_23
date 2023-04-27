@@ -1,3 +1,30 @@
 <h3>
     Dodaj nowy element
 </h3>
+<form >
+    <div class="row">
+        <mat-form-field appearance="outline">
+            <mat-label>Pdaj nazwę produktu</mat-label>
+            <input type="text" matInput>
+          </mat-form-field>
+    </div>
+    {{categories}}
+    <div class="row">
+        <mat-form-field appearance="outline">
+            <mat-label>Pdaj cenę produktu</mat-label>
+            <input type="number" matInput>
+            <mat-hint>W PLN</mat-hint>
+          </mat-form-field>
+    </div>
+    <div class="row">
+      
+        <mat-form-field appearance="outline">
+            <mat-label>Wybierz kategorię</mat-label>
+           <mat-select>
+            <mat-option *ngFor="let cat of categories" [value]="cat">{{cat}}</mat-option>
+           </mat-select>
+           
+                
+          </mat-form-field>
+    </div>
+</form>
