@@ -14,6 +14,7 @@ import { AppComponent } from './app.component';
 import { MainComponent } from './main/main.component';
 import { ItemListComponent } from './item-list/item-list.component';
 import { ItemAddComponent } from './item-add/item-add.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -28,6 +29,7 @@ import { ItemAddComponent } from './item-add/item-add.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    ReactiveFormsModule,
 
     MatToolbarModule,
     MatIconModule,
