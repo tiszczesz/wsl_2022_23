@@ -8,7 +8,8 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 })
 export class ItemAddComponent {
   onSubmitForm() {
-    throw new Error('Method not implemented.');
+    console.log(this._itemForm.value);
+    
   }
   categories: string[];
   _itemForm: FormGroup;
