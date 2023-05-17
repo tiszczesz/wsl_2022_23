@@ -12,4 +12,7 @@ export class ItemsService {
   addItem(data:Item):Observable<any>{
     return this._http.post("http://localhost:3000/items",data)
   }
+  getAllItems():Observable<any>{
+    return this._http.get("http://localhost:3000/items");
+  }
 }

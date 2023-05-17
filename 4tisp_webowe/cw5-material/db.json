@@ -20,5 +20,13 @@
   ],
   "profile": {
     "name": "typicode"
-  }
+  },
+  "items": [
+    {
+      "name": "item1",
+      "price": 23.89,
+      "category": "mięso",
+      "id": 1
+    }
+  ]
 }
