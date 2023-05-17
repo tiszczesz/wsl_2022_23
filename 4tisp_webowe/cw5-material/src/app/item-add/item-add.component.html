@@ -5,14 +5,14 @@
     <div class="row">
         <mat-form-field appearance="outline">
             <mat-label>Podaj nazwę produktu</mat-label>
-            <input type="text" matInput formControlName="itemName">
+            <input type="text" matInput formControlName="Name">
           </mat-form-field>
     </div>
 
     <div class="row">
         <mat-form-field appearance="outline">
             <mat-label>Podaj cenę produktu</mat-label>
-            <input type="number" matInput formControlName="itemPrice">
+            <input type="number" matInput formControlName="Price">
             <mat-hint>W PLN</mat-hint>
           </mat-form-field>
     </div>
@@ -20,7 +20,7 @@
         
         <mat-form-field appearance="outline">
             <mat-label>Wybierz kategorię</mat-label>
-           <mat-select formControlName="itemCategory">
+           <mat-select formControlName="Category">
             <mat-option *ngFor="let cat of categories" [value]="cat">{{cat}}</mat-option>
            </mat-select>      
           </mat-form-field>

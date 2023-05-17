@@ -23,9 +23,9 @@
   },
   "items": [
     {
-      "name": "item1",
-      "price": 23.89,
-      "category": "mięso",
+      "Name": "Kiełbasa 1",
+      "Price": 23.9,
+      "Category": "wędliny",
       "id": 1
     }
   ]
