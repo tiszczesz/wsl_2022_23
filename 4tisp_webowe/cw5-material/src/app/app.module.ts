@@ -10,6 +10,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatFormFieldModule} from '@angular/material/form-field'; 
 import {MatInputModule} from '@angular/material/input';
  import {MatSelectModule} from '@angular/material/select'; 
+ import {MatTableModule} from '@angular/material/table'; 
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -43,6 +44,7 @@ import { TableExampleComponent } from './table-example/table-example.component';
     MatFormFieldModule,
     MatInputModule,
     MatSelectModule,
+    MatTableModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

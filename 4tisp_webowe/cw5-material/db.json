@@ -27,6 +27,24 @@
       "Price": 23.9,
       "Category": "wędliny",
       "id": 1
+    },
+    {
+      "Name": "toruńska",
+      "Price": 23.99,
+      "Category": "wędliny",
+      "id": 2
+    },
+    {
+      "Name": "Parówka",
+      "Price": 12.99,
+      "Category": "wędliny",
+      "id": 3
+    },
+    {
+      "Name": "Pepsi",
+      "Price": 8.99,
+      "Category": "napoje",
+      "id": 4
     }
   ]
 }
