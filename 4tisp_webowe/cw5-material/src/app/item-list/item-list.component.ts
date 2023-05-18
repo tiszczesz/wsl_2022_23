@@ -16,8 +16,7 @@ export class ItemListComponent implements OnInit {
       next:(val:Item[])=>{
         this.items = val;
         this.dataSource = this.items;
-        console.log(this.items);
-        
+        console.log(this.items);        
       },
       error:(err)=>{
         console.log(err);        
@@ -25,5 +24,4 @@ export class ItemListComponent implements OnInit {
     })
   }
   constructor(private _itemService:ItemsService){}
-
 }
